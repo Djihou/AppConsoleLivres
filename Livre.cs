@@ -15,8 +15,8 @@ namespace AppConsoleLivres
 
         public Livre (string titre, string auteur, int nombrePage)
         {  Titre = titre; 
-            Auteur = auteur; 
-            NombrePages = nombrePage;
+           Auteur = auteur; 
+           NombrePages = nombrePage;
         }
 
         public virtual void AfficherDetails()
