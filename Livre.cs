@@ -21,7 +21,7 @@ namespace AppConsoleLivres
 
         public virtual void AfficherDetails()
         {
-            Console.WriteLine($"Le livre intitulé {Titre} a pour auteur {Auteur} et contient {NombrePages} pages");
+            Console.WriteLine($"Titre : {Titre}, Auteur : {Auteur}, Nombre de Pages : {NombrePages}");
 
         }
     }

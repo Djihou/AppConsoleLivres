@@ -17,7 +17,8 @@ namespace AppConsoleLivres
 
         public override void AfficherDetails()
         {
-            Console.WriteLine($"Le livre intitulé {Titre} a pour auteur {Auteur} et contient {NombrePages} pages.Son genre est {Genre}");
+            Console.WriteLine("**********************************************************************************************************************");
+            Console.WriteLine($"Titre : {Titre}, Auteur : {Auteur}, Nombre de Pages : {NombrePages}, Genre : {Genre}");
         }
     }
 }
